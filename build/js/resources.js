@@ -1,5 +1,10 @@
 game.resources = [
     {
+        "name": "NewJunkCity",
+        "type": "audio",
+        "src": "data/bgm/"
+    },
+    {
         "name": "dst-inertexponent",
         "type": "audio",
         "src": "data/bgm/"
@@ -70,14 +75,24 @@ game.resources = [
         "src": "data/img/map/mario_general_tiles.png"
     },
     {
-        "name": "mario_tiles",
+        "name": "mario_land",
         "type": "image",
-        "src": "data/img/map/mario_tiles.png"
+        "src": "data/img/map/mario_land.png"
     },
     {
         "name": "bart",
         "type": "image",
         "src": "data/img/sprite/bart.png"
+    },
+    {
+        "name": "battletoad",
+        "type": "image",
+        "src": "data/img/sprite/battletoad.png"
+    },
+    {
+        "name": "earthworm_jim",
+        "type": "image",
+        "src": "data/img/sprite/earthworm_jim.png"
     },
     {
         "name": "gripe_run_right",
@@ -90,9 +105,19 @@ game.resources = [
         "src": "data/img/sprite/mario2.png"
     },
     {
+        "name": "marioCape",
+        "type": "image",
+        "src": "data/img/sprite/marioCape.png"
+    },
+    {
         "name": "mario_luigi",
         "type": "image",
         "src": "data/img/sprite/mario_luigi.png"
+    },
+    {
+        "name": "metroidBall",
+        "type": "image",
+        "src": "data/img/sprite/metroidBall.png"
     },
     {
         "name": "spinning_coin_gold",

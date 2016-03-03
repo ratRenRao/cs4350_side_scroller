@@ -24,7 +24,7 @@ var game = {
         }
 
         // Initialize the audio.
-        me.audio.init("mp3,ogg");
+        me.audio.init("mp3"); //,ogg");
 
         // Set a callback to run when loading is complete.
         me.loader.onload = this.loaded.bind(this);
@@ -48,6 +48,7 @@ var game = {
 		me.pool.register("CoinEntity", game.CoinEntity);
 		me.pool.register("EnemyEntity", game.EnemyEntity);
 		me.pool.register("EnemyEntity2", game.EnemyEntity2);
+		me.pool.register("EnemyEntity3", game.EnemyEntity3);
 
 		// enable the keyboard
 		me.input.bindKey(me.input.KEY.LEFT,		"left");

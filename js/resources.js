@@ -18,20 +18,24 @@ game.resources = [
 	{name: "area01_bkg1",         type:"image",	src: "data/img/area01_bkg1.png"},
 	// our level tileset
 	{name: "area01_level_tiles",  type:"image",	src: "data/img/map/area01_level_tiles.png"},
-    {name: "mario_land",		  type:"image", src: "data/img/map/mario_tiles.png"},
-	{name: "mario_stuff",		  type:"image", src: "data/img/map/mario_general_tiles.png"},
+	{name: "mario_general_tiles",		  type:"image", src: "data/img/map/mario_general_tiles.png"},
+	{name: "mario_land",	      type:"image",	src: "data/img/map/mario_land.png"},
+	{name: "wolverine",	      type:"image",	src: "data/img/sprite/wolverine.png"},
+	{name: "battletoad",	      type:"image",	src: "data/img/sprite/battletoad.png"},
+	{name: "earthworm_jim",	      type:"image",	src: "data/img/sprite/earthworm_jim.png"},
 
 	/* 
 	 * Maps. 
  	 */
 	{name: "area01",              type: "tmx",	src: "data/map/area01.tmx"},
 	{name: "area02",              type: "tmx",	src: "data/map/area02.tmx"},
-	{name: "area03", 			  type: "tmx",  src: "data/map/area03.tmx"},
+	{name: "area03", 	      type: "tmx",  src: "data/map/area03.tmx"},
 
 	/* 
 	 * Background music. 
 	 */	
-	{name: "dst-inertexponent", type: "audio", src: "data/bgm/"},
+	//{name: "dst-inertexponent", type: "audio", src: "data/bgm/"},
+	{name: "NewJunkCity", type: "audio", src: "data/bgm/"},
 	
 	/* 
 	 * Sound effects. 
