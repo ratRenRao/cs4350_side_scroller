@@ -5,7 +5,7 @@ game.PlayScreen = me.ScreenObject.extend({
 	onResetEvent: function() {	
 		
 		// play the audio track
-		me.audio.playTrack("dst-inertexponent");
+		me.audio.playTrack("NewJunkCity");
 		
         // load a level
 		me.levelDirector.loadLevel("area01");

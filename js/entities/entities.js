@@ -8,6 +8,22 @@ game.PlayerEntity = me.Entity.extend({
      */
     init:function (x, y, settings)
     {
+
+        // define this here instead of tiled
+        settings.image = "earthworm_jim";
+     
+        // save the area size defined in Tiled
+        var width = settings.width;
+        var height = settings.height;
+
+        // adjust the size setting information to match the sprite size
+        // so that the entity object is created with the right size
+        settings.framewidth = settings.width = 42; 
+        settings.frameheight = settings.height = 50; 
+
+        // redefine the default shape (used to define path) with a shape matching the renderable
+        settings.shapes[0] = new me.Rect(0, 0, settings.framewidth, settings.frameheight);
+ 
         // call the constructor
         this._super(me.Entity, 'init', [x, y , settings]);
         
@@ -23,7 +39,7 @@ game.PlayerEntity = me.Entity.extend({
         // define a basic walking animation (using all frames)
         this.renderable.addAnimation("walk",  [0, 1, 2, 3, 4, 5]);
         // define a standing animation (using the first frame)
-        this.renderable.addAnimation("stand",  [0]);
+        this.renderable.addAnimation("stand",  [2]);
         // set the standing animation as default
         this.renderable.setCurrentAnimation("stand");        
     },

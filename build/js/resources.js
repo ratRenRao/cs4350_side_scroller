@@ -70,6 +70,21 @@ game.resources = [
         "src": "data/img/map/area01_level_tiles.png"
     },
     {
+        "name": "castle_tileset_part1",
+        "type": "image",
+        "src": "data/img/map/castle_tileset_part1.png"
+    },
+    {
+        "name": "castle_tileset_part2",
+        "type": "image",
+        "src": "data/img/map/castle_tileset_part2.png"
+    },
+    {
+        "name": "castle_tileset_part3",
+        "type": "image",
+        "src": "data/img/map/castle_tileset_part3.png"
+    },
+    {
         "name": "mario_general_tiles",
         "type": "image",
         "src": "data/img/map/mario_general_tiles.png"

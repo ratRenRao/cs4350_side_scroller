@@ -20,6 +20,10 @@ game.resources = [
 	{name: "area01_level_tiles",  type:"image",	src: "data/img/map/area01_level_tiles.png"},
 	{name: "mario_general_tiles",		  type:"image", src: "data/img/map/mario_general_tiles.png"},
 	{name: "mario_land",	      type:"image",	src: "data/img/map/mario_land.png"},
+	{name: "castle_tileset_part1" type:"image",	src: "data/img/map/castle_tileset_part1.png"},
+	{name: "castle_tileset_part2" type:"image",	src: "data/img/map/castle_tileset_part2.png"},
+	{name: "castle_tileset_part3" type:"image",	src: "data/img/map/castle_tileset_part3.png"},
+
 	{name: "wolverine",	      type:"image",	src: "data/img/sprite/wolverine.png"},
 	{name: "battletoad",	      type:"image",	src: "data/img/sprite/battletoad.png"},
 	{name: "earthworm_jim",	      type:"image",	src: "data/img/sprite/earthworm_jim.png"},
