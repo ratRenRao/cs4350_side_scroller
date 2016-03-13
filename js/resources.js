@@ -5,29 +5,29 @@ game.resources = [
 	// the main player spritesheet
 	{name: "gripe_run_right",     type:"image",	src: "data/img/sprite/gripe_run_right.png"},
 	{name: "bart",				  type:"image", src: "data/img/sprite/bart.png"},
+	{name: "earthworm_jim",	      type:"image",	src: "data/img/sprite/earthworm_jim.png"},
 	// the spinning coin spritesheet
 	{name: "spinning_coin_gold",  type:"image",	src: "data/img/sprite/spinning_coin_gold.png"},
-	// our enemty entity
+	// enemty entities
 	{name: "wheelie_right",       type:"image",	src: "data/img/sprite/wheelie_right.png"},
+	{name: "wolverine",	      type:"image",	src: "data/img/sprite/wolverine.png"},
+	{name: "battletoad",	      type:"image",	src: "data/img/sprite/battletoad.png"},
 	// game font
 	{name: "32x32_font",          type:"image",	src: "data/img/font/32x32_font.png"},
 	// title screen
 	{name: "title_screen",        type:"image",	src: "data/img/gui/title_screen.png"},
-	// the parallax background
+	// parallax background
 	{name: "area01_bkg0",         type:"image",	src: "data/img/area01_bkg0.png"},
 	{name: "area01_bkg1",         type:"image",	src: "data/img/area01_bkg1.png"},
-	// our level tileset
+	// level tileset
 	{name: "area01_level_tiles",  type:"image",	src: "data/img/map/area01_level_tiles.png"},
 	{name: "mario_general_tiles",		  type:"image", src: "data/img/map/mario_general_tiles.png"},
 	{name: "mario_land",	      type:"image",	src: "data/img/map/mario_land.png"},
-	{name: "castle_tileset_part1" type:"image",	src: "data/img/map/castle_tileset_part1.png"},
-	{name: "castle_tileset_part2" type:"image",	src: "data/img/map/castle_tileset_part2.png"},
-	{name: "castle_tileset_part3" type:"image",	src: "data/img/map/castle_tileset_part3.png"},
+	{name: "castle_tileset_part1", type:"image",	src: "data/img/map/castle_tileset_part1.png"},
+	{name: "castle_tileset_part2", type:"image",	src: "data/img/map/castle_tileset_part2.png"},
+	{name: "castle_tileset_part3", type:"image",	src: "data/img/map/castle_tileset_part3.png"},
 
-	{name: "wolverine",	      type:"image",	src: "data/img/sprite/wolverine.png"},
-	{name: "battletoad",	      type:"image",	src: "data/img/sprite/battletoad.png"},
-	{name: "earthworm_jim",	      type:"image",	src: "data/img/sprite/earthworm_jim.png"},
-
+		
 	/* 
 	 * Maps. 
  	 */
