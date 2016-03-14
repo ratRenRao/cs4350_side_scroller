@@ -135,6 +135,11 @@ game.resources = [
         "src": "data/img/sprite/metroidBall.png"
     },
     {
+        "name": "metroid_coin",
+        "type": "image",
+        "src": "data/img/sprite/metroid_coin.png"
+    },
+    {
         "name": "spinning_coin_gold",
         "type": "image",
         "src": "data/img/sprite/spinning_coin_gold.png"

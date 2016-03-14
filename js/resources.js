@@ -8,6 +8,8 @@ game.resources = [
 	{name: "earthworm_jim",	      type:"image",	src: "data/img/sprite/earthworm_jim.png"},
 	// the spinning coin spritesheet
 	{name: "spinning_coin_gold",  type:"image",	src: "data/img/sprite/spinning_coin_gold.png"},
+	{name: "metroid_coin",		  type:"image", src: "data/img/sprite/metroid_coin.png"},
+	{name: "metroidBall",		  type:"image", src: "data/img/sprite/metroidBall.png"},
 	// enemty entities
 	{name: "wheelie_right",       type:"image",	src: "data/img/sprite/wheelie_right.png"},
 	{name: "wolverine",	      type:"image",	src: "data/img/sprite/wolverine.png"},

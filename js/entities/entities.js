@@ -183,6 +183,50 @@ game.CoinEntity = me.CollectableEntity.extend(
     }
 });
 
+
+/**
+ * Coin Entity
+ */
+game.CoinEntity2 = me.CollectableEntity.extend(
+{    
+
+	// save the area size defined in Tiled
+    /*var width = settings.width;
+    var height = settings.height;
+
+    // adjust the size setting information to match the sprite size
+    // so that the entity object is created with the right size
+    settings.framewidth = settings.width = 28; 
+    settings.frameheight = settings.height = 29; 
+
+    // redefine the default shape (used to define path) with a shape matching the renderable
+    settings.shapes[0] = new me.Rect(0, 0, settings.framewidth, settings.frameheight);
+	*/
+
+    init: function (x, y, settings)
+    {
+        // call the parent constructor
+        this._super(me.CollectableEntity, 'init', [x, y , settings]);
+    },
+
+    /**
+     * colision handler
+     */
+    onCollision : function (response, other) {
+        // do something when collide
+        me.audio.play("cling");
+        // give some score
+        game.data.score += 250;
+        // make sure it cannot be collected "again"
+        this.body.setCollisionMask(me.collision.types.NO_OBJECT);
+        // remove it
+        me.game.world.removeChild(this);
+
+        return false;
+    }
+});
+
+
 /**
  * Enemy Entity
  */
