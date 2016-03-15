@@ -9,6 +9,7 @@ game.resources = [
 	// the spinning coin spritesheet
 	{name: "spinning_coin_gold",  type:"image",	src: "data/img/sprite/spinning_coin_gold.png"},
 	{name: "metroid_coin",		  type:"image", src: "data/img/sprite/metroid_coin.png"},
+	{name: "sonic_coin",		  type:"image", src: "data/img/sprite/sonic_coin.gif"},
 	{name: "metroidBall",		  type:"image", src: "data/img/sprite/metroidBall.png"},
 	// enemty entities
 	{name: "wheelie_right",       type:"image",	src: "data/img/sprite/wheelie_right.png"},

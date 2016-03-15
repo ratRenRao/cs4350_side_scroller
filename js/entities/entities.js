@@ -331,7 +331,7 @@ game.EnemyEntity2 = me.Entity.extend(
 
         // adjust the size setting information to match the sprite size
         // so that the entity object is created with the right size
-        settings.framewidth = settings.width = 32;
+        settings.framewidth = settings.width = 33;
         settings.frameheight = settings.height = 37;
 
         // redefine the default shape (used to define path) with a shape matching the renderable
@@ -438,7 +438,7 @@ game.EnemyEntity3 = me.Entity.extend(
         this.walkLeft = false;
 
         // walking & jumping speed
-        this.body.setVelocity(4, 6);
+        this.body.setVelocity(2, 6);
     },
     
     // manage the enemy movement
