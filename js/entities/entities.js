@@ -90,6 +90,15 @@ game.PlayerEntity = me.Entity.extend({
                 me.audio.play("jump");
             }
         }
+		if (me.input.isKeyPressed('run'))
+		{
+			if (!this.body.jumping && !this.body.falling)
+            {
+    			this.body.setVelocity(5, 15);
+            }	
+		}
+		else
+			this.body.setVelocity(3, 15);
         
         // apply physics to the body (this moves the entity)
         this.body.update(dt);
@@ -124,6 +133,11 @@ game.PlayerEntity = me.Entity.extend({
                     // Do not respond to the platform (pass through)
                     return false;
                 }
+				if (other.type === "pit") {
+					me.game.world.removeChild(this);
+
+				}
+
                 break;
 
             case me.collision.types.ENEMY_OBJECT:

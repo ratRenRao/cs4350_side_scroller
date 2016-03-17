@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="32" tileheight="32" nextobjectid="66">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="32" tileheight="32" nextobjectid="83">
  <tileset firstgid="1" name="area01_level_tiles" tilewidth="32" tileheight="32" tilecount="140" columns="20">
   <image source="../img/map/area01_level_tiles.png" width="640" height="241"/>
  </tileset>
@@ -32,7 +32,7 @@
  </imagelayer>
  <layer name="background" width="40" height="15">
   <data encoding="base64">
-   eAwAAHgMAAB4DAAAeAwAAHgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPELAADyCwAAcAgAAHgMAAB4DAAAeAwAAHgMAAB4DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDAAAAgwAAHAIAAB4DAAAeAwAAAAAAAB4DAAAeAwAAAAAAAAAAAAAAAAAAAAAAAB4DAAAeAwAAHgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9QcAADYIAAD3BwAAAAAAAAAAAAA6CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQwAABIMAABwCAAAeAwAAHgMAAB4DAAAeAwAAHgMAAAAAAAAAAAAAAAAAAB4DAAAeAwAAHgMAAB4DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9QcAAPYHAAD2BwAAcAgAAE4IAABOCAAATggAAE4IAAB4DAAAAAAAAAAAAAB4DAAAeAwAAHgMAAB4DAAAeAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPUHAAA2CAAA9wcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAIAABOCAAATggAAE4IAAAAAAAAAAAAAAAAAAB4DAAAeAwAAHgMAABOCAAATggAADYMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3CwAA+AsAAAAAAAAAAAAAOggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwCAAATggAAE4IAAAAAAAAAAAAAAAAAABOCAAATggAAHgMAAB4DAAAeAwAAHgMAAAqDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN4LAAAAAAAAAAAAAAAAAADfCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAgAAE4IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgMAAB4DAAAeAwAAHgMAAB4DAAAOgwAAAAAAAAAAAAAAAAAAPcLAAD4CwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAIAABvCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4DAAAeAwAAHgMAAB4DAAAeAwAAEoMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOggAAAAAAAAAAAAAAAAAAE4IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwCAAAbwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAwAAHgMAAB4DAAATggAAE4IAABGDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoIAAAAAAAAAAAAAEsIAABMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAgAAG8IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgMAAB4DAAAYAgAAAAAAAAAAAAANwwAACcMAAAoDAAAKQwAACgMAAA4DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6CAAAAAAAAEsIAABMCAAATAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAIAABvCAAAAAAAAAAAAABLCAAATggAAE4IAABOCAAAYAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYwgAADcMAAAnDAAAOggAACkMAABMCAAATAgAAEwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3CwAA+AsAAAAAAABwCAAAbwgAAAAAAABLCAAAYAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYwgAAIQIAAAAAAAAlAgAADoIAACUCAAAAAAAAJQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAgAAG8IAABLCAAAYAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3DAAAOAwAAAAAAAAAAAAAcAgAAFYIAAA6CAAATggAAE4IAABaCAAATggAAAAAAAAAAAAAAAAAAAAAAAD3CwAA5wsAAOcLAADnCwAA+AsAAAAAAAAAAAAAAAAAAHAIAABOCAAAYAgAAAAAAAA3DAAAJwwAACgMAAApDAAAJwwAADgMAAAAAAAAAAAAAAAAAAA3DAAAOAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAIAABOCAAAOggAAE4IAABOCAAAaggAAE4IAACCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwCAAA
+   eAwAAHgMAAB4DAAAeAwAAHgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPELAADyCwAAcAgAAHgMAAB4DAAAeAwAAHgMAAB4DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDAAAAgwAAHAIAAB4DAAAeAwAAAAAAAB4DAAAeAwAAAAAAAAAAAAAAAAAAAAAAAB4DAAAeAwAAHgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9QcAADYIAAD3BwAAAAAAAAAAAAA6CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQwAABIMAABwCAAAeAwAAHgMAAB4DAAAeAwAAHgMAAAAAAAAAAAAAAAAAAB4DAAAeAwAAHgMAAB4DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9QcAAPYHAAD2BwAAcAgAAE4IAABOCAAATggAAE4IAAB4DAAAAAAAAAAAAAB4DAAAeAwAAHgMAAB4DAAAeAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPUHAAA2CAAA9wcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAIAABOCAAATggAAE4IAAAAAAAAAAAAAAAAAAB4DAAAeAwAAHgMAABOCAAATggAADYMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3CwAA+AsAAAAAAAAAAAAAOggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwCAAATggAAE4IAAAAAAAAAAAAAAAAAABOCAAATggAAHgMAAB4DAAAeAwAAHgMAAAqDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN4LAAAAAAAAAAAAAAAAAADfCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAgAAE4IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgMAAB4DAAAeAwAAHgMAAB4DAAAOgwAAAAAAAAAAAAAAAAAAPcLAAD4CwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAIAABvCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4DAAAeAwAAHgMAAB4DAAAeAwAAEoMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOggAAAAAAAAAAAAAAAAAAE4IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwCAAAbwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAwAAHgMAAB4DAAATggAAE4IAABGDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoIAAAAAAAAAAAAAEsIAABMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAgAAG8IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgMAAB4DAAAYAgAAAAAAAAAAAAANwwAACcMAAAoDAAAKQwAACgMAAA4DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6CAAAAAAAAEsIAABMCAAATAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAIAABvCAAAAAAAAAAAAABLCAAATggAAE4IAABOCAAAYAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYwgAADcMAAAnDAAAOggAACkMAABMCAAATAgAAEwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3CwAA+AsAAAAAAABwCAAAbwgAAAAAAABLCAAAYAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYwgAAIQIAAAAAAAAlAgAADoIAACUCAAAAAAAAJQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAgAAG8IAABLCAAAYAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3DAAAOAwAAAAAAAAAAAAAcAgAAFYIAAA6CAAATggAAE4IAABaCAAATggAAAAAAAAAAAAAAAAAAAAAAAD3CwAA5wsAAOcLAADnCwAA+AsAAAAAAAAAAAAAAAAAAHAIAABOCAAAYAgAAAAAAAA3DAAAJwwAACgMAAApDAAAJwwAADgMAAAAAAAAAAAAAAAAAAA3DAAAJwwAACgMAAA4DAAAAAAAAAAAAAAAAAAAAAAAAHAIAABOCAAAOggAAE4IAABOCAAAaggAAE4IAACCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwCAAA
   </data>
  </layer>
  <layer name="background2" width="40" height="15">
@@ -47,7 +47,7 @@
     <property name="image" value="battletoad"/>
    </properties>
   </object>
-  <object id="31" name="EnemyEntity3" x="5" y="69" width="153" height="57">
+  <object id="31" name="EnemyEntity3" x="3" y="73" width="153" height="54">
    <properties>
     <property name="framewidth" value="31"/>
     <property name="image" value="bart"/>
@@ -59,7 +59,7 @@
     <property name="image" value="battletoad"/>
    </properties>
   </object>
-  <object id="51" name="EnemyEntity3" x="868" y="197" width="316" height="57">
+  <object id="51" name="EnemyEntity3" x="862" y="201" width="316" height="54">
    <properties>
     <property name="framewidth" value="31"/>
     <property name="image" value="bart"/>
@@ -73,94 +73,94 @@
     <property name="image" value="earthworm_jim"/>
    </properties>
   </object>
-  <object id="3" name="CoinEntity" x="671" y="442" width="32" height="32">
-   <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
-   </properties>
-  </object>
   <object id="4" name="CoinEntity2" x="145" y="311" width="25" height="28">
    <properties>
     <property name="framewidth" value="25"/>
     <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="5" name="CoinEntity" x="62" y="35" width="32" height="32">
+  <object id="66" name="CoinEntity2" x="753" y="432" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="6" name="CoinEntity" x="63" y="93" width="32" height="32">
+  <object id="67" name="CoinEntity2" x="675" y="432" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="7" name="CoinEntity" x="896" y="155" width="32" height="32">
+  <object id="68" name="CoinEntity2" x="496" y="180" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="8" name="CoinEntity" x="1025" y="155" width="32" height="32">
+  <object id="69" name="CoinEntity2" x="243" y="407" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="9" name="CoinEntity" x="1200" y="54" width="32" height="32">
+  <object id="70" name="CoinEntity2" x="178" y="407" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="10" name="CoinEntity" x="748" y="437" width="32" height="32">
+  <object id="71" name="CoinEntity2" x="114" y="407" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="11" name="CoinEntity" x="831" y="441" width="32" height="32">
+  <object id="72" name="CoinEntity2" x="124" y="28" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="12" name="CoinEntity" x="112" y="410" width="32" height="32">
+  <object id="73" name="CoinEntity2" x="19" y="27" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="13" name="CoinEntity" x="175" y="410" width="32" height="32">
+  <object id="74" name="CoinEntity2" x="901" y="149" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="14" name="CoinEntity" x="238" y="410" width="32" height="32">
+  <object id="75" name="CoinEntity2" x="1203" y="52" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="15" name="CoinEntity" x="594" y="113" width="32" height="32">
+  <object id="76" name="CoinEntity2" x="1028" y="148" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="64" name="CoinEntity" x="960" y="-16" width="32" height="32">
+  <object id="77" name="CoinEntity2" x="834" y="429" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
-  <object id="65" name="CoinEntity" x="832" y="13" width="32" height="32">
+  <object id="79" name="CoinEntity2" x="967" y="-5" width="25" height="28">
    <properties>
-    <property name="framewidth" value="32"/>
-    <property name="image" value="spinning_coin_gold"/>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
+   </properties>
+  </object>
+  <object id="80" name="CoinEntity2" x="836" y="19" width="25" height="28">
+   <properties>
+    <property name="framewidth" value="25"/>
+    <property name="image" value="sonic_coin"/>
    </properties>
   </object>
  </objectgroup>
@@ -171,8 +171,7 @@
  </layer>
  <objectgroup color="#ff0000" name="collision">
   <object id="16" x="1159" y="354" width="50" height="32"/>
-  <object id="17" x="353" y="322" width="183" height="30"/>
-  <object id="18" x="353" y="162" width="28" height="158"/>
+  <object id="18" x="353" y="162" width="28" height="142"/>
   <object id="19" x="104" y="449" width="171" height="33"/>
   <object id="20" x="1003" y="420" width="141" height="27"/>
   <object id="21" x="863" y="258" width="312" height="30"/>
@@ -210,7 +209,7 @@
   <object id="38" type="platform" x="3" y="450" width="4.46875" height="11">
    <polyline points="0,0 26,0"/>
   </object>
-  <object id="42" x="392" y="448" width="47" height="28"/>
+  <object id="42" x="392" y="448" width="114" height="28"/>
   <object id="43" x="521" y="417" width="55" height="28"/>
   <object id="44" x="640" y="353" width="128" height="30"/>
   <object id="46" type="platform" x="487" y="221" width="11" height="14">
@@ -241,6 +240,17 @@
   </object>
   <object id="62" type="platform" x="1185" y="96" width="13.25" height="14">
    <polyline points="0,0 53,0"/>
+  </object>
+  <object id="81" type="platform" x="384" y="321" width="37.75" height="14">
+   <polyline points="0,0 151,0"/>
+  </object>
+  <object id="82" name="me.LevelEntity" type="pit" x="-114" y="539" width="389.5" height="14">
+   <properties>
+    <property name="duration" value="450"/>
+    <property name="fade" value="#0000"/>
+    <property name="to" value="area01"/>
+   </properties>
+   <polyline points="0,0 1558,0"/>
   </object>
  </objectgroup>
 </map>

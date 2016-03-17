@@ -30,7 +30,7 @@ game.TitleScreen = me.ScreenObject.extend({
                  // a tween to animate the arrow
                 this.scrollertween = new me.Tween(this).to({scrollerpos: -2200 }, 10000).onComplete(this.scrollover.bind(this)).start();
 
-                this.scroller = "A SMALL STEP BY STEP TUTORIAL FOR GAME CREATION WITH MELONJS       ";
+                this.scroller = "***CONTROLS***Move>Arrows*Jump>X*Sprint>Z";
                 this.scrollerpos = 600;
             },
 

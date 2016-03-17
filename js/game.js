@@ -55,6 +55,7 @@ var game = {
 		me.input.bindKey(me.input.KEY.LEFT,		"left");
 		me.input.bindKey(me.input.KEY.RIGHT,	"right");
 		me.input.bindKey(me.input.KEY.X,		"jump", true);
+		me.input.bindKey(me.input.KEY.Z,		"run");
 
         // Start the game.
         me.state.change(me.state.MENU);
